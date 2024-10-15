@@ -1,0 +1,38 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    border-bottom: 1px solid #D8D8D8;;
+}
+
+.searchBarContainer {
+    display: flex;
+    width: 30%;
+    column-gap: 10px;
+}
+
+.searchBarContainer input{
+    padding: 11px;
+    width: 100%;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    border-radius: 40px;
+}
+
+.searchBarButton {
+    padding: 8px;
+    border: 1px solid #D8D8D8;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.quickAccessSection {
+    display: flex;
+    column-gap: 15px;
+}
+
+.quickAccessSection span {
+    font-size: 35px;
+    cursor: pointer;
+}
