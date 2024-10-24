@@ -1,14 +1,14 @@
 .navbarContainer {
     display: flex;
-    justify-content: space-around;
-    padding: 1rem 1rem 1rem 1rem;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
     align-items: center;
-    border-bottom: 1px solid #D8D8D8;;
+    border-bottom: 1px solid #D8D8D8;
 }
 
 .searchBarContainer {
     display: flex;
-    width: 30%;
+    width: 50%;
     column-gap: 10px;
 }
 
