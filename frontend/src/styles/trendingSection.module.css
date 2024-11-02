@@ -1,0 +1,15 @@
+.title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title p {
+    color: #878A92;
+}
+
+.productCard {  
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+    margin-top: 3rem;
+}

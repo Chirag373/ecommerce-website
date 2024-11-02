@@ -13,7 +13,7 @@ export const CarouselSection = () => {
                 showArrows={false}
                 showStatus={false}
                 autoPlay={true}
-                interval={3000}
+                interval={5000}
                 infiniteLoop={true}
             >
                 <div>
