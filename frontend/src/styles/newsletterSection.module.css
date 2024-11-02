@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    justify-content: space-around;
+    padding: 5rem 5rem 5rem 5rem;
+    margin-top: 2rem;
+}
+
+.newsLetterText p{
+    font-size: 18px;
+}
+
+.newsLetterInputContainer {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.newsLetterInputContainer input {
+    text-indent: 1rem;
+    outline: 0 none;
+    font-size: 17px;
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 0px;
+}
+
+.newsLetterInputContainer button {
+    padding: 10px 12px;
+    background: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 0px;
+    cursor: pointer;
+}
