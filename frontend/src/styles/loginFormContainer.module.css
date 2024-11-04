@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: 0 auto;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 1rem;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 4px;
+}
+
+.googleButton {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.horizontalLineText {
+    overflow: hidden;
+    text-align: center;
+}
+
+.horizontalLineText::before,
+.horizontalLineText::after {
+    background-color: #D8D8D8;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.horizontalLineText::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.horizontalLineText::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.formInputContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.formInput input,
+.loginButton {
+    height: 34px;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.forgotPassword {
+    text-align: end;
+}
+
+.loginButton {
+    width: 100%;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.redirectSignup {
+    text-align: center;
+}
