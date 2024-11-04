@@ -64,7 +64,8 @@
 }
 
 .formInput input,
-.loginButton {
+.loginButton,
+.signupButton {
     height: 34px;
     border: 1px solid #D8D8D8;
     outline: none;
@@ -76,7 +77,8 @@
     text-align: end;
 }
 
-.loginButton {
+.loginButton,
+.signupButton {
     width: 100%;
     color: #ffffff;
     background-color: black;
