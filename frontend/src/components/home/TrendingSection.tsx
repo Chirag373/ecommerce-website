@@ -16,6 +16,7 @@ export const TrendingSection = () => {
                 <ProductCard product_image={productImage} product_title={"demo"} product_status={"in stock"} product_price={22} />
                 <ProductCard product_image={productImage} product_title={"demo"} product_status={"in stock"} product_price={22} />
                 <ProductCard product_image={productImage} product_title={"demo"} product_status={"in stock"} product_price={22} />
+                <ProductCard product_image={productImage} product_title={"demo"} product_status={"in stock"} product_price={22} />
             </div>
         </div>
     )
