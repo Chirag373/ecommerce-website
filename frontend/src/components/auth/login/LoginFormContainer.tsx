@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../../styles/loginFormContainer.module.css"
-import GoogleLogo from "../../../public/common icons/google_logo.svg"
+import styles from "../../../styles/loginFormContainer.module.css"
+import GoogleLogo from "../../../../public/common icons/google_logo.svg"
 import Image from "next/image";
 
 export const LoginFormContainer = () => {

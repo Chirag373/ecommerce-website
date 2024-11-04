@@ -1,5 +1,5 @@
 import { Navbar } from "@/common components/Navbar";
-import { LoginFormContainer } from "@/components/login/LoginFormContainer";
+import { LoginFormContainer } from "@/components/auth/login/LoginFormContainer";
 import React from "react";
 
 const LoginPage = () => {
