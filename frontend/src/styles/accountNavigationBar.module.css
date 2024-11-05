@@ -1,0 +1,22 @@
+.container {
+    width: 300px;
+    border-right: 1px solid #D8D8D8;
+    height: 90vh;
+}
+
+.accountNavigationListContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.accountNavigationListContainer div {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    column-gap: 1rem;
+    cursor: pointer;
+}
+
+.accountNavigationListContainer div:hover {
+    background-color: #F6F6F6;
+}
