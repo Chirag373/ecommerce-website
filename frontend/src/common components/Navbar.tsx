@@ -13,7 +13,7 @@ export const Navbar = () => {
                 </button>
             </div>
             <div className={styles.quickAccessSection}>
-                <span className="material-symbols-outlined">favorite</span>
+                <span className="material-symbols-outlined">notifications</span>
                 <span className="material-symbols-outlined">shopping_cart</span>
                 <span className="material-symbols-outlined">person</span>
             </div>
